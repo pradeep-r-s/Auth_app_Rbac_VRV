@@ -1,0 +1,97 @@
+/* Admin Info Section */
+.admin-info {
+    display: flex;
+    justify-content: space-between; /* Space between name/email and logout button */
+    align-items: center; /* Vertically center the content */
+    width: 98%; /* Make it span the full width */
+    padding: 10px 20px; /* Add padding for spacing */
+    background-color: #f1f1f1; /* Light background color */
+    border-bottom: 2px solid #ccc; /* Bottom border for separation */
+  }
+  
+  .admin-info p {
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Set a readable font size */
+    font-weight: bold; /* Make the text bold */
+  }
+  
+  .logout-button {
+    background-color: #f44336; /* Red background for logout */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    font-size: 16px; /* Set the font size */
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  /* Admin Dashboard Table Section */
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light border for rows */
+  }
+  
+  th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text for header */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey for alternate rows */
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1; /* Hover effect for rows */
+  }
+  
+  /* Select and Button */
+  select {
+    padding: 8px 12px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .loading {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+  }
+  

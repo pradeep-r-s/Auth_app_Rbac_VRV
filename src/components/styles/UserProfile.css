@@ -1,0 +1,80 @@
+/* UserProfile.css */
+.profile-container {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #8a2be2; /* Violet */
+  }
+  
+  .profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .profile-table th,
+  .profile-table td {
+    padding: 10px;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .profile-table th {
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .profile-table td {
+    font-size: 14px;
+  }
+  
+  .profile-photo {
+    text-align: center;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #8a2be2; /* Violet border around the photo */
+  }
+  
+  /* Highlight the word 'Role' */
+  .role-highlight {
+    color: white;
+    background-color: #ff7f50; /* Coral background for the word 'Role' */
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Style for the logout button */
+  .logout-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .logout-button {
+    background-color: #ff7f50;  /* Coral background for the button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #e65c42;  /* Darker coral shade on hover */
+  }
+  
